@@ -26,11 +26,15 @@ chmod +x launch.sh
 لطفا فایل [lua_tg.c](https://telegram.me/TeleSudo_ch/20)
 را دانلود و بر پوشه tg بریزید
 
-بعد دستور
+# بعد دستور
 cd TeleBot
+
 cd tg
+
 make
+
 cd ../..
+
 را بزنید و تمام حال ربات اماده است که به صورت بلد کارکند.
 
 #نویسنده سورس
