@@ -1608,7 +1608,7 @@ local function run(msg, matches)
 				return "<b>Create a link using /newlink first!</b>\n\n<b>Or if I am not creator use /setlink to set your link</b>"
 			end
 			savelog(msg.to.id, name_log.." ["..msg.from.id.."] requested group link ["..group_link.."]")
-            return reply_msg(msg.id,'➖➖➖➖➖➖➖➖➖➖➖➖➖➖\n<a href="'..group_link..'">🔘 برای ورود به گروه | '..msg.to.title..' | کلیک کنید 🔘</a>\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖', ok_cb, false)
+            return reply_msg(msg.id,''..group_link..'🔘 برای ورود به گروه | '..msg.to.title..' | کلیک کنید 🔘</a>\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖', ok_cb, false)
 		end
 
 		if matches[1] == "invite" and is_sudo(msg) then
